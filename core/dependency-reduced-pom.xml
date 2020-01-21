@@ -24,7 +24,7 @@
     <version>1.3.1-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>orika-core</artifactId>
+  <artifactId>orika-core-axin</artifactId>
   <name>Orika - core</name>
   <description>Fast Java bean mapper</description>
   <url>http://code.google.com/p/orika</url>

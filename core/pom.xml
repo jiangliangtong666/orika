@@ -16,7 +16,7 @@
 		<version>1.5.4</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>orika-core</artifactId>
+	<artifactId>orika-core-axin</artifactId>
 	<name>Orika - core</name>
 
 
@@ -118,5 +118,19 @@
 	        </plugin>
 		</plugins>
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>axinfu</id>
+			<name>axin-releases</name>
+			<url>http://nexus.devops.axinfu.com/repository/maven-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>axinfu</id>
+			<name>axin-snapshots</name>
+			<url>http://nexus.devops.axinfu.com/repository/maven-snapshots/</url>
+			<uniqueVersion>true</uniqueVersion>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
